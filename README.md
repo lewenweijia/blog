@@ -1,1 +1,1 @@
-<h><p align="center">https://github.com/lewenweijia/blog/issues</p></h1>
+<h1 align="center"><a src="https://github.com/lewenweijia/blog/issue">Articles</a></h1>
