@@ -388,8 +388,9 @@ height:50vh;
 </blockquote>
 <h3 id="部署设置"><a href="#部署设置" class="headerlink" title="部署设置"></a>部署设置</h3><p>同样在<code>_config.yml</code>文件, 定位到deploy条目, 添加两个主要信息, 结果如下:</p>
 <blockquote>
-<p>deploy:<br>  type: git<br>  repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:lewenweijia/lewenweijia.github.io.git<br>当然, 其中的repo信息应该替换成你的Github page仓库地址.<br>注意, 使用git协议而不是https协议, 不然的话每次部署都得输入密码. 使用ssh密钥的方式可以实现免密码验证.</p>
+<p>deploy:<br>  type: git<br>  repo: <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:lewenweijia/lewenweijia.github.io.git</p>
 </blockquote>
+<p>当然, 其中的repo信息应该替换成你的Github page仓库地址.<br>注意, 使用git协议而不是https协议, 不然的话每次部署都得输入密码. 使用ssh密钥的方式可以实现免密码验证.</p>
 <h2 id="构建和部署"><a href="#构建和部署" class="headerlink" title="构建和部署"></a>构建和部署</h2><p><code>hexo init</code> 命令会生成一个初始的post, 我们借助这个来看最终的部署效果</p>
 <blockquote>
 <p>source/_posts/<br>    ├── hello-world.md</p>
